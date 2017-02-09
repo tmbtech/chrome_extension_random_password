@@ -1,2 +1,7 @@
-# chrome_extension_random_password
-Random password - chrome extension
+#Chrome Extension: For generating passwords
+
+###TODO:
+* [ ] Save settings to storage
+* [ ] get other dom elements
+* [ ] get Length from form
+* [ ] refactor code

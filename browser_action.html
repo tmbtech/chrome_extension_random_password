@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <link href="http://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.98.0/css/materialize.min.css">
+    <link rel="stylesheet" href="./css/main.css">
+</head>
+
+<body>
+<!--Import jQuery before materialize.js-->
+<script type="text/javascript" src="./js/jquery.2.1.1.min.js"></script>
+<script type="text/javascript" src="./js/materialize.min.js"></script>
+<script type="text/javascript" src="./js/main.js"></script>
+
+<div id="main">
+    <div class="row">
+        <form id="form" class="col s12">
+            <div class="row">
+                <div class="input-filed col s6">
+                    <input type="checkbox" class="filled-in" id="use-number" checked="checked"/>
+                    <label for="use-number">Number</label>
+                </div>
+                <div class="input-filed col s6">
+                    <input type="checkbox" class="filled-in" id="use-alphanumeric" checked="checked"/>
+                    <label for="use-alphanumeric">Alphanumeric</label>
+                </div>
+            </div>
+
+            <div class="row">
+                <div class="input-field col s6">
+                    <input id="prefix" type="text" class="validate">
+                    <label for="prefix">Prefix</label>
+                </div>
+
+                <div class="input-field col s6">
+                    <p class="range-field">
+                        <input type="range" id="test5" min="3" max="24"/>
+                    </p>
+                </div>
+            </div>
+
+            <div class="row">
+                <div class="input-field col s12">
+                    <input id="password" type="text" class="validate">
+                    <label for="password">Password</label>
+                </div>
+            </div>
+            <div class="row">
+                <button
+                        id="submit"
+                        type="submit"
+                        class="btn waves-effect waves-light red lighten-3"
+                >
+                    Generate Password
+                </button>
+            </div>
+        </form>
+    </div>
+</div>
+
+</body>
+</html>
